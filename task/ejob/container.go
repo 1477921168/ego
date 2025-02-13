@@ -72,6 +72,7 @@ func Job(name string, startFunc func(Context) error) *Component {
 	storeCache.Lock()
 	storeCache.cache[name] = comp
 	storeCache.Unlock()
+	elog.Info("JobJob", elog.String("name", name), elog.Any("cache", storeCache.cache))
 	return comp
 }
 
@@ -97,6 +98,7 @@ func Handle(w http.ResponseWriter, r *http.Request) {
 	var comp *Component
 	storeCache.RLock()
 	comp, ok := storeCache.cache[jobName]
+	elog.Info("jobHandle", elog.String("jobName", jobName), elog.Any("cache", storeCache.cache))
 	storeCache.RUnlock()
 	if !ok {
 		w.Header().Set("X-Ego-Job-Err", fmt.Sprintf("job:%s not exist", jobName))
