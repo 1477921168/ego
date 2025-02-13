@@ -1,4 +1,4 @@
-module github.com/gotomicro/ego
+module github.com/1477921168/ego
 
 go 1.18
 
