@@ -7,8 +7,9 @@ import (
 	"os"
 
 	"github.com/BurntSushi/toml"
-	"github.com/gotomicro/ego/core/econf"
 	"gopkg.in/yaml.v3"
+
+	"github.com/1477921168/ego/core/econf"
 )
 
 var defaultScheme = "file"

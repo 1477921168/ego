@@ -10,14 +10,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gotomicro/ego/core/util/xtime"
-	"github.com/gotomicro/ego/internal/test/helloworld"
-	"github.com/gotomicro/ego/internal/tools"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/test/bufconn"
+
+	"github.com/1477921168/ego/core/util/xtime"
+	"github.com/1477921168/ego/internal/test/helloworld"
+	"github.com/1477921168/ego/internal/tools"
 )
 
 func Test_customHeader(t *testing.T) {
@@ -184,8 +185,8 @@ type GreeterHeader struct {
 // SayHello ...
 func (g GreeterHeader) SayHello(context context.Context, request *helloworld.HelloRequest) (*helloworld.HelloResponse, error) {
 	appName := tools.GrpcHeaderValue(context, "app")
-	//cpu := tools.GrpcHeaderValue(context, "enable-cpu-usage")
-	//assert.Equal(g.t, "true", cpu)
+	// cpu := tools.GrpcHeaderValue(context, "enable-cpu-usage")
+	// assert.Equal(g.t, "true", cpu)
 	assert.Equal(g.t, "egrpc.test", appName)
 
 	return &helloworld.HelloResponse{

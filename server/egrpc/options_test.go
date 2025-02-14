@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego/core/elog"
 
-	"github.com/gotomicro/ego/core/econf"
+	"github.com/1477921168/ego/core/econf"
 )
 
 func newCmp(t *testing.T, opt Option) *Component {

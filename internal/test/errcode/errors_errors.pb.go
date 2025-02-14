@@ -3,7 +3,7 @@
 package errcode
 
 import (
-	"github.com/gotomicro/ego/core/eerrors"
+	"github.com/1477921168/ego/core/eerrors"
 	"google.golang.org/grpc/codes"
 )
 

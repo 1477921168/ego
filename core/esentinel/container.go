@@ -1,8 +1,8 @@
 package esentinel
 
 import (
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/core/elog"
 )
 
 // Option overrides a Container's default configuration.

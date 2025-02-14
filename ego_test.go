@@ -6,9 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/server"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/server"
 )
 
 func TestEgoRun(t *testing.T) {

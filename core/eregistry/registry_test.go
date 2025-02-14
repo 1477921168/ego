@@ -4,10 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/util/xtime"
-	"github.com/gotomicro/ego/server"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/util/xtime"
+	"github.com/1477921168/ego/server"
 )
 
 func TestGetServiceKey(t *testing.T) {

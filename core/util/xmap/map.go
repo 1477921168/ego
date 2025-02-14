@@ -1,7 +1,7 @@
 package xmap
 
 import (
-	"github.com/gotomicro/ego/internal/util"
+	"github.com/1477921168/ego/internal/util"
 )
 
 // MergeStringMap merge two map

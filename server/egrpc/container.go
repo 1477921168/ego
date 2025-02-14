@@ -3,9 +3,9 @@ package egrpc
 import (
 	"google.golang.org/grpc"
 
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/util/xnet"
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/core/util/xnet"
 )
 
 // Container defines a component instance.
@@ -63,10 +63,10 @@ func (c *Container) Build(options ...Option) *Component {
 	}
 
 	// prometheus metric 必须在业务拦截器执行完之后
-	//if c.config.EnableMetricInterceptor {
-	//unaryInterceptors = append(unaryInterceptors, prometheusUnaryServerInterceptor)
-	//streamInterceptors = append(streamInterceptors, prometheusStreamServerInterceptor)
-	//}
+	// if c.config.EnableMetricInterceptor {
+	// unaryInterceptors = append(unaryInterceptors, prometheusUnaryServerInterceptor)
+	// streamInterceptors = append(streamInterceptors, prometheusStreamServerInterceptor)
+	// }
 
 	// 启用sentinel
 	if c.config.EnableSentinel {

@@ -3,12 +3,12 @@ package main
 import (
 	"context"
 
-	"github.com/gotomicro/ego"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/examples/helloworld"
-	"github.com/gotomicro/ego/server"
-	"github.com/gotomicro/ego/server/egovernor"
-	"github.com/gotomicro/ego/server/egrpc"
+	"github.com/1477921168/ego"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/examples/helloworld"
+	"github.com/1477921168/ego/server"
+	"github.com/1477921168/ego/server/egovernor"
+	"github.com/1477921168/ego/server/egrpc"
 )
 
 // export EGO_DEBUG=true && go run main.go --config=config.toml

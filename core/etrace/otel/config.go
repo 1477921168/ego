@@ -11,10 +11,10 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/internal/ienv"
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/internal/ienv"
 )
 
 // Config ...

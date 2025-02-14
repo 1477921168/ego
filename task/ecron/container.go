@@ -6,8 +6,8 @@ import (
 	"github.com/robfig/cron/v3"
 	"go.uber.org/zap"
 
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/core/elog"
 )
 
 // Container defines a component instance.

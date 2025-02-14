@@ -47,12 +47,12 @@ if [[ -n "${RELEASE_TAG}" ]]; then
 fi
 
 # used by scripts/build/gobuild.sh
-echo "github.com/gotomicro/ego/core/eapp.appName=${APP_NAME}"
-echo "github.com/gotomicro/ego/core/eapp.buildVersion=${VERSION}"
-echo "github.com/gotomicro/ego/core/eapp.buildAppVersion=${BUILD_GIT_REVISION}"
-echo "github.com/gotomicro/ego/core/eapp.buildStatus=${tree_status}"
-echo "github.com/gotomicro/ego/core/eapp.buildUser=$(whoami)"
-echo "github.com/gotomicro/ego/core/eapp.buildHost=$(hostname -f)"
-echo "github.com/gotomicro/ego/core/eapp.buildTime=$(date '+%Y-%m-%d--%T')"
+echo "github.com/1477921168/ego/core/eapp.appName=${APP_NAME}"
+echo "github.com/1477921168/ego/core/eapp.buildVersion=${VERSION}"
+echo "github.com/1477921168/ego/core/eapp.buildAppVersion=${BUILD_GIT_REVISION}"
+echo "github.com/1477921168/ego/core/eapp.buildStatus=${tree_status}"
+echo "github.com/1477921168/ego/core/eapp.buildUser=$(whoami)"
+echo "github.com/1477921168/ego/core/eapp.buildHost=$(hostname -f)"
+echo "github.com/1477921168/ego/core/eapp.buildTime=$(date '+%Y-%m-%d--%T')"
 
 

@@ -10,20 +10,21 @@ import (
 	"syscall"
 
 	sentinelmetrics "github.com/alibaba/sentinel-golang/metrics"
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/core/econf/manager"
-	"github.com/gotomicro/ego/core/eflag"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/esentinel"
-	"github.com/gotomicro/ego/core/etrace"
-	"github.com/gotomicro/ego/core/etrace/otel"
-	"github.com/gotomicro/ego/core/util/xcolor"
-	"github.com/gotomicro/ego/internal/retry"
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/automaxprocs/maxprocs"
 	"golang.org/x/sync/errgroup"
+
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/core/econf/manager"
+	"github.com/1477921168/ego/core/eflag"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/core/esentinel"
+	"github.com/1477921168/ego/core/etrace"
+	"github.com/1477921168/ego/core/etrace/otel"
+	"github.com/1477921168/ego/core/util/xcolor"
+	"github.com/1477921168/ego/internal/retry"
 )
 
 // waitSignals wait signal

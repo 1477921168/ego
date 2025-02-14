@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/balancer/roundrobin"
 
-	"github.com/gotomicro/ego/core/util/xtime"
+	"github.com/1477921168/ego/core/util/xtime"
 )
 
 func TestDefaultConfig(t *testing.T) {

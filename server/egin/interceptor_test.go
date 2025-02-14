@@ -19,9 +19,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gotomicro/ego/core/transport"
+	"github.com/1477921168/ego/core/transport"
 
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego/core/elog"
 )
 
 func TestPanicInHandler(t *testing.T) {

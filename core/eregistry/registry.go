@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/grpc/resolver"
 
-	"github.com/gotomicro/ego/server"
+	"github.com/1477921168/ego/server"
 )
 
 // Registry register/unregister service

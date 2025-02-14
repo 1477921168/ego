@@ -10,9 +10,9 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"
 
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/emetric"
-	"github.com/gotomicro/ego/core/etrace"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/core/emetric"
+	"github.com/1477921168/ego/core/etrace"
 )
 
 type wrappedJob struct {

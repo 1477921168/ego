@@ -3,9 +3,9 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/gotomicro/ego"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/server/egin"
+	"github.com/1477921168/ego"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/server/egin"
 )
 
 // export EGO_DEBUG=true && go run main.go --config=config.toml

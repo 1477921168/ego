@@ -3,7 +3,7 @@ package eregistry
 import (
 	"context"
 
-	"github.com/gotomicro/ego/server"
+	"github.com/1477921168/ego/server"
 )
 
 // Nop registry, used for local development/debugging

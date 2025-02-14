@@ -4,12 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gotomicro/ego"
-	"github.com/gotomicro/ego/client/ehttp"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/etrace"
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
+
+	"github.com/1477921168/ego"
+	"github.com/1477921168/ego/client/ehttp"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/core/etrace"
 )
 
 func main() {

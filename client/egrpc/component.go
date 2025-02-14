@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/grpclog"
 
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/internal/egrpclog"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/internal/egrpclog"
 )
 
 // PackageName 设置包名

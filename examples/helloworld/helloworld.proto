@@ -14,7 +14,7 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/gotomicro/ego/examples/helloworld";
+option go_package = "github.com/1477921168/ego/examples/helloworld";
 package helloworld;
 
 // The greeting service definition.

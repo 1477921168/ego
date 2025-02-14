@@ -4,8 +4,9 @@ import (
 	"context"
 
 	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/gotomicro/ego/core/elog"
 	"google.golang.org/grpc"
+
+	"github.com/1477921168/ego/core/elog"
 )
 
 // Option overrides a Container's default configuration.

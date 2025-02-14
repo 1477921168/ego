@@ -10,10 +10,11 @@ import (
 	"testing"
 
 	"github.com/BurntSushi/toml"
-	"github.com/gotomicro/ego/core/econf"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/1477921168/ego/core/econf"
 )
 
 func TestRotateLogger(t *testing.T) {

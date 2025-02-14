@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/util/xtime"
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/util/xtime"
 )
 
 func TestServiceInfo(t *testing.T) {

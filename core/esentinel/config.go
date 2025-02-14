@@ -1,7 +1,7 @@
 package esentinel
 
 import (
-	"github.com/gotomicro/ego/core/eapp"
+	"github.com/1477921168/ego/core/eapp"
 )
 
 // Config defines component configuration schema

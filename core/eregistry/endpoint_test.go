@@ -4,8 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gotomicro/ego/server"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/1477921168/ego/server"
 )
 
 func TestEndpoints_DeepCopy(t *testing.T) {

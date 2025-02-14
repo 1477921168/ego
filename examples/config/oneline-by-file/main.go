@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gotomicro/ego"
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego"
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/core/elog"
 )
 
 // export EGO_DEBUG=true && go run main.go  --config=config.toml --watch=false

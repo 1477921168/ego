@@ -8,7 +8,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego/core/elog"
 )
 
 var storeCache *store

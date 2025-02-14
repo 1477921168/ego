@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotomicro/ego/core/econf"
-	_ "github.com/gotomicro/ego/core/econf/file"
-	"github.com/gotomicro/ego/core/econf/manager"
+	"github.com/1477921168/ego/core/econf"
+	_ "github.com/1477921168/ego/core/econf/file"
+	"github.com/1477921168/ego/core/econf/manager"
 )
 
 func TestWatchFile(t *testing.T) {

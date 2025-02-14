@@ -3,11 +3,11 @@ package main
 import (
 	"time"
 
-	"github.com/gotomicro/ego"
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego"
+	"github.com/1477921168/ego/core/elog"
 )
 
-//  export EGO_DEBUG=true && go run main.go --config=config.toml
+// export EGO_DEBUG=true && go run main.go --config=config.toml
 func main() {
 	err := ego.New(ego.WithHang(true)).Invoker(func() error {
 		go func() {

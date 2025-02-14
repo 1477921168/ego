@@ -5,14 +5,15 @@ import (
 	"log"
 	"testing"
 
-	cegrpc "github.com/gotomicro/ego/client/egrpc"
-	"github.com/gotomicro/ego/core/eerrors"
-	"github.com/gotomicro/ego/internal/test/errcode"
-	"github.com/gotomicro/ego/internal/test/helloworld"
-	"github.com/gotomicro/ego/server/egrpc"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/test/bufconn"
 	"google.golang.org/protobuf/proto"
+
+	cegrpc "github.com/1477921168/ego/client/egrpc"
+	"github.com/1477921168/ego/core/eerrors"
+	"github.com/1477921168/ego/internal/test/errcode"
+	"github.com/1477921168/ego/internal/test/helloworld"
+	"github.com/1477921168/ego/server/egrpc"
 )
 
 var svc *egrpc.Component

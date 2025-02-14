@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/gotomicro/ego/core/util/xtime"
+	"github.com/1477921168/ego/core/util/xtime"
 )
 
 // Config HTTP配置选项

@@ -17,13 +17,13 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/gotomicro/ego/client/ehttp/resolver"
+	"github.com/1477921168/ego/client/ehttp/resolver"
 
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/emetric"
-	"github.com/gotomicro/ego/core/etrace"
-	"github.com/gotomicro/ego/core/util/xdebug"
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/core/emetric"
+	"github.com/1477921168/ego/core/etrace"
+	"github.com/1477921168/ego/core/util/xdebug"
 )
 
 type interceptor func(name string, cfg *Config, logger *elog.Component, builder resolver.Resolver) (resty.RequestMiddleware, resty.ResponseMiddleware, resty.ErrorHook)

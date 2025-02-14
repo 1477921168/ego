@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/gotomicro/ego/core/transport"
+	"github.com/1477921168/ego/core/transport"
 )
 
 func TestGrpcHeaderValue(t *testing.T) {

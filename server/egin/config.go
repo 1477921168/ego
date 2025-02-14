@@ -12,8 +12,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/cel-go/cel"
 
-	"github.com/gotomicro/ego/core/eflag"
-	"github.com/gotomicro/ego/core/util/xtime"
+	"github.com/1477921168/ego/core/eflag"
+	"github.com/1477921168/ego/core/util/xtime"
 )
 
 // Config HTTP config

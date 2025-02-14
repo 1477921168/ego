@@ -5,10 +5,11 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/gotomicro/ego/core/eregistry"
-	"github.com/gotomicro/ego/server"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/resolver"
+
+	"github.com/1477921168/ego/core/eregistry"
+	"github.com/1477921168/ego/server"
 )
 
 func TestResolver(t *testing.T) {

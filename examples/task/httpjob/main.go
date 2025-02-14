@@ -5,11 +5,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/gotomicro/ego"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/server/egovernor"
-	"github.com/gotomicro/ego/task/ejob"
 	"go.uber.org/zap"
+
+	"github.com/1477921168/ego"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/server/egovernor"
+	"github.com/1477921168/ego/task/ejob"
 )
 
 // 如果是Job 命令行执行  export EGO_DEBUG=true && go run main.go --config=config.toml --job=job --job-data='{"username":"ego"}' --job-header='test=1'

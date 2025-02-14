@@ -4,10 +4,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/server"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/attributes"
+
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/server"
 )
 
 func Test_Equal(t *testing.T) {

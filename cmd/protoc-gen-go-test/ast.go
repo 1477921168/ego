@@ -10,9 +10,10 @@ import (
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
-	"github.com/gotomicro/ego/internal/tools"
 	orderedmap "github.com/wk8/go-ordered-map"
 	"golang.org/x/tools/imports"
+
+	"github.com/1477921168/ego/internal/tools"
 )
 
 func checkAndMerge(f *file) ([]byte, error) {

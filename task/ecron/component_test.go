@@ -12,7 +12,7 @@ import (
 	"github.com/robfig/cron/v3"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/gotomicro/ego/core/econf"
+	"github.com/1477921168/ego/core/econf"
 )
 
 func testBuildComp(name, config string) (c *Component, err error) {

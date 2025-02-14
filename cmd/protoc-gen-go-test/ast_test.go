@@ -3,8 +3,9 @@ package main
 import (
 	"testing"
 
-	"github.com/gotomicro/ego/internal/tools"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/1477921168/ego/internal/tools"
 )
 
 func TestGenAst(t *testing.T) {

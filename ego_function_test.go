@@ -3,19 +3,21 @@ package ego
 import (
 	"flag"
 	"fmt"
-	"github.com/BurntSushi/toml"
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/core/eflag"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/task/ejob"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"
 	"path"
 	"runtime"
 	"strings"
 	"testing"
+
+	"github.com/BurntSushi/toml"
+	"github.com/stretchr/testify/assert"
+
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/core/eflag"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/task/ejob"
 )
 
 func Test_loadConfig(t *testing.T) {

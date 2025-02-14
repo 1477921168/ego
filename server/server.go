@@ -7,10 +7,10 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/eflag"
-	"github.com/gotomicro/ego/core/standard"
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/eflag"
+	"github.com/1477921168/ego/core/standard"
 )
 
 // Option overrides a Container's default configuration.

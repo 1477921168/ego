@@ -33,9 +33,9 @@ import (
 )
 
 const (
-	egoServerPackage = protogen.GoImportPath("github.com/gotomicro/ego/server/egin")
-	ginPackage = protogen.GoImportPath("github.com/gin-gonic/gin")
-	eerrorsPackage = protogen.GoImportPath("github.com/gotomicro/ego/core/eerrors")
+	egoServerPackage = protogen.GoImportPath("github.com/1477921168/ego/server/egin")
+	ginPackage       = protogen.GoImportPath("github.com/gin-gonic/gin")
+	eerrorsPackage   = protogen.GoImportPath("github.com/1477921168/ego/core/eerrors")
 )
 
 var methodSets = make(map[string]int)

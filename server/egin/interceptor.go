@@ -27,13 +27,13 @@ import (
 	rpcpb "google.golang.org/genproto/googleapis/rpc/context/attribute_context"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/emetric"
-	"github.com/gotomicro/ego/core/esentinel"
-	"github.com/gotomicro/ego/core/etrace"
-	"github.com/gotomicro/ego/core/transport"
-	"github.com/gotomicro/ego/internal/tools"
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/core/emetric"
+	"github.com/1477921168/ego/core/esentinel"
+	"github.com/1477921168/ego/core/etrace"
+	"github.com/1477921168/ego/core/transport"
+	"github.com/1477921168/ego/internal/tools"
 )
 
 var (

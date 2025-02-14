@@ -13,8 +13,8 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"github.com/spf13/cast"
 
-	"github.com/gotomicro/ego/core/util/xmap"
-	"github.com/gotomicro/ego/internal/tools"
+	"github.com/1477921168/ego/core/util/xmap"
+	"github.com/1477921168/ego/internal/tools"
 )
 
 // PackageName defines package name.

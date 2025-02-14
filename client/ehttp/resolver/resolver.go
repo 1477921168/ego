@@ -8,9 +8,9 @@ import (
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/resolver"
 
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/eregistry"
-	"github.com/gotomicro/ego/server"
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/eregistry"
+	"github.com/1477921168/ego/server"
 )
 
 var (

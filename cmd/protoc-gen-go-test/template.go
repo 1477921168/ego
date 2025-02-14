@@ -5,7 +5,7 @@ import (
 	"log"
 	"text/template"
 
-	"github.com/gotomicro/ego/internal/tools"
+	"github.com/1477921168/ego/internal/tools"
 )
 
 const (

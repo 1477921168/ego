@@ -3,7 +3,7 @@ package egovernor
 import (
 	"fmt"
 
-	"github.com/gotomicro/ego/core/eflag"
+	"github.com/1477921168/ego/core/eflag"
 )
 
 // Config 配置

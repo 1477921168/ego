@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/balancer/roundrobin"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/gotomicro/ego/core/util/xtime"
+	"github.com/1477921168/ego/core/util/xtime"
 )
 
 // Config ...

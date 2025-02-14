@@ -19,10 +19,11 @@ import (
 	healthcheck "github.com/RaMin0/gin-health-check"
 	"github.com/gin-gonic/gin"
 	"github.com/go-resty/resty/v2"
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/server"
+
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/server"
 )
 
 // PackageName 包名

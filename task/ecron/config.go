@@ -5,7 +5,7 @@ import (
 
 	"github.com/robfig/cron/v3"
 
-	"github.com/gotomicro/ego/core/util/xtime"
+	"github.com/1477921168/ego/core/util/xtime"
 )
 
 // Config ...

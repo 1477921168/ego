@@ -10,7 +10,8 @@ import (
 	sentinelconfig "github.com/alibaba/sentinel-golang/core/config"
 	"github.com/alibaba/sentinel-golang/core/flow"
 	"github.com/fsnotify/fsnotify"
-	"github.com/gotomicro/ego/core/elog"
+
+	"github.com/1477921168/ego/core/elog"
 )
 
 // PackageName component name

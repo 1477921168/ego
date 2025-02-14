@@ -3,7 +3,7 @@ package eflag
 import (
 	"strings"
 
-	"github.com/gotomicro/ego/internal/ienv"
+	"github.com/1477921168/ego/internal/ienv"
 )
 
 // StringFlag is a string flag implements of Flag interface.

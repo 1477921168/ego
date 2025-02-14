@@ -16,8 +16,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/internal/test/helloworld"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/internal/test/helloworld"
 )
 
 func Test_getPeerName(t *testing.T) {
@@ -43,7 +43,7 @@ func Test_getPeerIP(t *testing.T) {
 	assert.Equal(t, "127.0.0.1", value)
 }
 
-//func Test_enableCPUUsage(t *testing.T) {
+// func Test_enableCPUUsage(t *testing.T) {
 //	md := metadata.New(map[string]string{
 //		"enable-cpu-usage": "true",
 //	})
@@ -61,7 +61,7 @@ func Test_getPeerIP(t *testing.T) {
 //	ctx3 := metadata.NewIncomingContext(context.Background(), md3)
 //	value3 := enableCPUUsage(ctx3)
 //	assert.Equal(t, false, value3)
-//}
+// }
 
 func Test_ServerAccessLogger(t *testing.T) {
 	// 使用非异步日志

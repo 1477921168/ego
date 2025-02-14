@@ -6,7 +6,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/gotomicro/ego/core/econf"
+	"github.com/1477921168/ego/core/econf"
 )
 
 const (

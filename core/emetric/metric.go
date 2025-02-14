@@ -3,7 +3,7 @@ package emetric
 import (
 	"time"
 
-	"github.com/gotomicro/ego/core/eapp"
+	"github.com/1477921168/ego/core/eapp"
 )
 
 var (

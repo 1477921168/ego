@@ -3,7 +3,7 @@ package egrpclog
 import (
 	"sync"
 
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego/core/elog"
 )
 
 var (

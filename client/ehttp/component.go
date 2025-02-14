@@ -8,10 +8,11 @@ import (
 	"time"
 
 	"github.com/go-resty/resty/v2"
-	"github.com/gotomicro/ego/client/ehttp/resolver"
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/eregistry"
+
+	"github.com/1477921168/ego/client/ehttp/resolver"
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/core/eregistry"
 )
 
 // PackageName 设置包名

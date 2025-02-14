@@ -1,8 +1,8 @@
 package elog
 
 import (
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/econf"
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/econf"
 )
 
 // Container defines a component instance.

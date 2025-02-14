@@ -8,8 +8,9 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/gotomicro/ego/core/econf"
 	"github.com/gotomicro/logrotate"
+
+	"github.com/1477921168/ego/core/econf"
 )
 
 type rotateWriterBuilder struct{}

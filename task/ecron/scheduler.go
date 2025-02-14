@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gotomicro/ego/core/standard"
+	"github.com/1477921168/ego/core/standard"
 )
 
 type immediatelyScheduler struct {

@@ -6,9 +6,10 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"github.com/gotomicro/ego/core/econf"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/test/bufconn"
+
+	"github.com/1477921168/ego/core/econf"
 )
 
 func newCmp(t *testing.T, opt Option) *Component {

@@ -3,7 +3,7 @@ package eflag
 import (
 	"strings"
 
-	"github.com/gotomicro/ego/internal/ienv"
+	"github.com/1477921168/ego/internal/ienv"
 )
 
 // Float64Flag is a float flag implements of Flag interface.

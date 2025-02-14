@@ -4,7 +4,7 @@ package server
 
 import (
 	"context"
-	"github.com/gotomicro/ego/server/egrpc"
+	"github.com/1477921168/ego/server/egrpc"
 	"google.golang.org/grpc/test/bufconn"
 	"net"
 )

@@ -5,13 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gotomicro/ego/core/etrace"
 	"github.com/robfig/cron/v3"
 	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"
 
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/util/xstring"
+	"github.com/1477921168/ego/core/etrace"
+
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/core/util/xstring"
 )
 
 // PackageName 包名

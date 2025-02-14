@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gotomicro/ego/core/util/xcolor"
+	"github.com/1477921168/ego/core/util/xcolor"
 )
 
 // MakeReqResInfo ...

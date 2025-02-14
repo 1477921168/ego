@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/gotomicro/ego/internal/ecode"
+	"github.com/1477921168/ego/internal/ecode"
 )
 
 // Error defines an grpc error that can be transformed between micro-service caller and micro-service callee.

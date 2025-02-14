@@ -13,14 +13,15 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/task/ejob"
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/task/ejob"
 
 	"github.com/felixge/fgprof"
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/server"
+
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/server"
 )
 
 var (

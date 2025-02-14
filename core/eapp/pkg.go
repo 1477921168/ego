@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/util/xcolor"
-	"github.com/gotomicro/ego/core/util/xtime"
-	"github.com/gotomicro/ego/internal/ienv"
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/util/xcolor"
+	"github.com/1477921168/ego/core/util/xtime"
+	"github.com/1477921168/ego/internal/ienv"
 )
 
 var (
@@ -52,7 +52,7 @@ func init() {
 	info, ok := debug.ReadBuildInfo()
 	if ok {
 		for _, value := range info.Deps {
-			if value.Path == "github.com/gotomicro/ego" {
+			if value.Path == "github.com/1477921168/ego" {
 				egoVersion = value.Version
 			}
 		}

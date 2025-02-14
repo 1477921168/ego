@@ -3,7 +3,7 @@
 package xcolor
 
 import (
-	"github.com/gotomicro/ego/internal/util"
+	"github.com/1477921168/ego/internal/util"
 )
 
 // Yellow prints message with yellow.

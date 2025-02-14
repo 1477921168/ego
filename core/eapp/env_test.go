@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gotomicro/ego/core/constant"
+	"github.com/1477921168/ego/core/constant"
 )
 
 func TestAppMode(t *testing.T) {

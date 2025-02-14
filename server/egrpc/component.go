@@ -4,11 +4,6 @@ import (
 	"context"
 	"net"
 
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/internal/egrpclog"
-	"github.com/gotomicro/ego/server"
 	"go.uber.org/zap/zapgrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
@@ -17,6 +12,12 @@ import (
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/grpc/test/bufconn"
+
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/internal/egrpclog"
+	"github.com/1477921168/ego/server"
 )
 
 // PackageName 包名

@@ -4,14 +4,15 @@ import (
 	"net/http"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gotomicro/ego/core/transport"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/gotomicro/ego"
-	"github.com/gotomicro/ego/client/egrpc"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/examples/helloworld"
+	"github.com/1477921168/ego/core/transport"
+
+	"github.com/1477921168/ego"
+	"github.com/1477921168/ego/client/egrpc"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/examples/helloworld"
 )
 
 func main() {

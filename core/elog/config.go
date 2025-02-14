@@ -3,9 +3,10 @@ package elog
 import (
 	"fmt"
 
-	"github.com/gotomicro/ego/core/eapp"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/1477921168/ego/core/eapp"
 )
 
 const (

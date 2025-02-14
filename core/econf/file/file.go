@@ -1,15 +1,17 @@
 package file
 
 import (
-	"github.com/gotomicro/ego/core/constant"
 	"log"
 	"os"
 	"path/filepath"
 
+	"github.com/1477921168/ego/core/constant"
+
 	"github.com/fsnotify/fsnotify"
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/core/econf/manager"
-	"github.com/gotomicro/ego/core/elog"
+
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/core/econf/manager"
+	"github.com/1477921168/ego/core/elog"
 )
 
 // fileDataSource defines a file configuration provider.

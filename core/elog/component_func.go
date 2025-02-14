@@ -5,10 +5,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/gotomicro/ego/core/eapp"
-	"github.com/gotomicro/ego/core/util/xcolor"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/1477921168/ego/core/eapp"
+	"github.com/1477921168/ego/core/util/xcolor"
 )
 
 func defaultZapConfig() *zapcore.EncoderConfig {

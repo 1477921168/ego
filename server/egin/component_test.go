@@ -18,8 +18,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/core/elog"
 )
 
 func TestComponent_buildTLSConfig(t *testing.T) {

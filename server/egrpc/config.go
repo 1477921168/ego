@@ -6,11 +6,12 @@ import (
 	"time"
 
 	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/gotomicro/ego/core/eflag"
+
+	"github.com/1477921168/ego/core/eflag"
 
 	"google.golang.org/grpc"
 
-	"github.com/gotomicro/ego/core/util/xtime"
+	"github.com/1477921168/ego/core/util/xtime"
 )
 
 // Config ...

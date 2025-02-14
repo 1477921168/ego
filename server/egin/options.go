@@ -8,7 +8,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego/core/elog"
 )
 
 // Option overrides a Container's default configuration.

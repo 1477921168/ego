@@ -3,7 +3,7 @@
 package bizv1
 
 import (
-	eerrors "github.com/gotomicro/ego/core/eerrors"
+	eerrors "github.com/1477921168/ego/core/eerrors"
 	codes "google.golang.org/grpc/codes"
 )
 

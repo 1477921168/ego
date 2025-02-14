@@ -3,7 +3,7 @@ package eflag
 import (
 	"strings"
 
-	"github.com/gotomicro/ego/internal/ienv"
+	"github.com/1477921168/ego/internal/ienv"
 )
 
 // IntFlag is an int flag implements of Flag interface.

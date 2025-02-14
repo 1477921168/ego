@@ -8,15 +8,15 @@ import (
 	"time"
 
 	// econf/file package should be imported first
-	_ "github.com/gotomicro/ego/core/econf/file"
-	"github.com/gotomicro/ego/core/eflag"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/eregistry"
-	"github.com/gotomicro/ego/core/util/xcycle"
-	"github.com/gotomicro/ego/core/util/xtime"
-	"github.com/gotomicro/ego/server"
-	"github.com/gotomicro/ego/task/ecron"
-	"github.com/gotomicro/ego/task/ejob"
+	_ "github.com/1477921168/ego/core/econf/file"
+	"github.com/1477921168/ego/core/eflag"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/core/eregistry"
+	"github.com/1477921168/ego/core/util/xcycle"
+	"github.com/1477921168/ego/core/util/xtime"
+	"github.com/1477921168/ego/server"
+	"github.com/1477921168/ego/task/ecron"
+	"github.com/1477921168/ego/task/ejob"
 )
 
 // Ego 分为三大部分
@@ -60,7 +60,7 @@ type opts struct {
 
 // New new Ego
 //
-//go:generate protoc -I. --go_out=module=github.com/gotomicro/ego/core/eerrors,Mcore/eerrors/errors.proto=github.com/gotomicro/ego/core/eerrors:core/eerrors core/eerrors/errors.proto
+//go:generate protoc -I. --go_out=module=github.com/1477921168/ego/core/eerrors,Mcore/eerrors/errors.proto=github.com/1477921168/ego/core/eerrors:core/eerrors core/eerrors/errors.proto
 func New(options ...Option) *Ego {
 	e := &Ego{
 		// 第一部分 系统数据

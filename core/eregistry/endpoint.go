@@ -3,7 +3,7 @@ package eregistry
 import (
 	"encoding/json"
 
-	"github.com/gotomicro/ego/server"
+	"github.com/1477921168/ego/server"
 )
 
 // Endpoints ...

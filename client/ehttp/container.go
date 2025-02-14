@@ -3,8 +3,8 @@ package ehttp
 import (
 	"regexp"
 
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/core/elog"
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/core/elog"
 )
 
 // Option 选项

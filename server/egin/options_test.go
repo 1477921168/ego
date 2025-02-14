@@ -8,8 +8,9 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/gotomicro/ego/core/elog"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/1477921168/ego/core/elog"
 )
 
 func TestInterceptor(t *testing.T) {

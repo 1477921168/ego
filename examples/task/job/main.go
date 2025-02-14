@@ -4,11 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gotomicro/ego"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/etrace"
-	"github.com/gotomicro/ego/task/ejob"
 	"go.uber.org/zap"
+
+	"github.com/1477921168/ego"
+	"github.com/1477921168/ego/core/elog"
+	"github.com/1477921168/ego/core/etrace"
+	"github.com/1477921168/ego/task/ejob"
 )
 
 // export EGO_DEBUG=true && go run main.go --job=jobrunner  --config=config.toml

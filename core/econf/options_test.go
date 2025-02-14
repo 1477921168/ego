@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotomicro/ego/core/econf"
-	"github.com/gotomicro/ego/core/econf/manager"
+	"github.com/1477921168/ego/core/econf"
+	"github.com/1477921168/ego/core/econf/manager"
 )
 
 func TestWithTagName(t *testing.T) {

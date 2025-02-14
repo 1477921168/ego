@@ -23,16 +23,17 @@ import (
 	"google.golang.org/grpc/peer"
 	"google.golang.org/grpc/status"
 
-	"github.com/gotomicro/ego/core/eerrors"
-	"github.com/gotomicro/ego/core/elog"
-	"github.com/gotomicro/ego/core/emetric"
-	"github.com/gotomicro/ego/core/esentinel"
-	"github.com/gotomicro/ego/core/etrace"
-	"github.com/gotomicro/ego/core/transport"
-	"github.com/gotomicro/ego/core/util/xstring"
-	"github.com/gotomicro/ego/internal/ecode"
-	"github.com/gotomicro/ego/internal/egrpcinteceptor"
-	"github.com/gotomicro/ego/internal/tools"
+	"github.com/1477921168/ego/core/emetric"
+	"github.com/1477921168/ego/core/esentinel"
+	"github.com/1477921168/ego/core/etrace"
+	"github.com/1477921168/ego/core/transport"
+	"github.com/1477921168/ego/core/util/xstring"
+	"github.com/1477921168/ego/internal/ecode"
+	"github.com/1477921168/ego/internal/egrpcinteceptor"
+	"github.com/1477921168/ego/internal/tools"
+
+	"github.com/1477921168/ego/core/eerrors"
+	"github.com/1477921168/ego/core/elog"
 )
 
 func traceUnaryServerInterceptor() grpc.UnaryServerInterceptor {

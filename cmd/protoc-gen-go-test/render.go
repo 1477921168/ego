@@ -9,26 +9,27 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/gotomicro/ego/internal/tools"
 	"google.golang.org/protobuf/compiler/protogen"
+
+	"github.com/1477921168/ego/internal/tools"
 )
 
 var importTestPackages = map[string]string{
-	"testing":                               "",
-	"context":                               "",
-	"errors":                                "",
-	"github.com/stretchr/testify/assert":    "",
-	"google.golang.org/grpc":                "",
-	"google.golang.org/protobuf/proto":      "",
-	"github.com/gotomicro/ego/client/egrpc": "cegrpc",
-	"github.com/gotomicro/ego/core/eerrors": "",
+	"testing":                                "",
+	"context":                                "",
+	"errors":                                 "",
+	"github.com/stretchr/testify/assert":     "",
+	"google.golang.org/grpc":                 "",
+	"google.golang.org/protobuf/proto":       "",
+	"github.com/1477921168/ego/client/egrpc": "cegrpc",
+	"github.com/1477921168/ego/core/eerrors": "",
 }
 
 var importInitTestPackages = map[string]string{
-	"net":                                   "",
-	"context":                               "",
-	"google.golang.org/grpc/test/bufconn":   "",
-	"github.com/gotomicro/ego/server/egrpc": "",
+	"net":                                    "",
+	"context":                                "",
+	"google.golang.org/grpc/test/bufconn":    "",
+	"github.com/1477921168/ego/server/egrpc": "",
 }
 
 func execCmd(name string, args ...string) (string, error) {

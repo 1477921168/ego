@@ -9,7 +9,7 @@ import (
 	"github.com/BurntSushi/toml"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gotomicro/ego/core/econf"
+	"github.com/1477921168/ego/core/econf"
 )
 
 func TestDefaultContainer(t *testing.T) {

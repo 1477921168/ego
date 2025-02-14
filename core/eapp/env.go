@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gotomicro/ego/core/constant"
-	"github.com/gotomicro/ego/internal/ienv"
+	"github.com/1477921168/ego/core/constant"
+	"github.com/1477921168/ego/internal/ienv"
 )
 
 var (
